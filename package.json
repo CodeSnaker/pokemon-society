@@ -1,0 +1,37 @@
+{
+  "name": "group-1054725",
+  "version": "1.0.0",
+  "description": "Pokemon Society - Web server with REST API querying a local MySQL server",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "build": "npx tsc",
+    "dev": "npx nodemon dist/main.js",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rendu-git.etna-alternance.net/module-9955/activity-53448/group-1054725"
+  },
+  "author": "matthe_a",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0",
+    "typescript": "^5.8.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9",
+    "typescript-eslint": "^8.30.1"
+  }
+}
